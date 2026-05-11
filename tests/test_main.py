@@ -14,7 +14,6 @@ def test_calc_lig():
 
     with pytest.raises(ValueError):
          calculate_logorifm(0, 2)
-
     with pytest.raises(ValueError):
         calculate_logorifm(8, 0)
 
