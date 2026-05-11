@@ -16,3 +16,9 @@ if __name__ == '__main__':
     assert is_even(0) == True
 
     assert find_max([]) == 0
+
+
+def divide(a, b):
+    if b > 0:
+        return a / b
+    return 0
